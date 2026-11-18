@@ -1,0 +1,28 @@
+# Look and feel of the dashboard. Streamlit reads this file when it is started
+# from the Threat_Response_System folder.
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+baseRadius = "large"
+buttonRadius = "full"
+showWidgetBorder = true
+chartCategoricalColors = ["#2563eb", "#0ea5e9", "#8b5cf6", "#f59e0b", "#10b981"]
+
+[theme.light]
+primaryColor = "#2563eb"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f6fb"
+textColor = "#3b4658"
+borderColor = "#e2e8f0"
+
+[theme.dark]
+primaryColor = "#3b82f6"
+backgroundColor = "#0b1120"
+secondaryBackgroundColor = "#141d30"
+textColor = "#c3ccd9"
+borderColor = "#24314a"

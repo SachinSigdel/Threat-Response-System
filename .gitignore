@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Large data files (download from the UNSW-NB15 site, see README).
+# The official test set IS committed because the dashboard samples from it.
+UNSW_NB15_training-set.csv
+unsw_nb15_cleaned.csv
+
+# Streamlit secrets
+.streamlit/secrets.toml

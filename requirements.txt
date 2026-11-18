@@ -1,0 +1,19 @@
+# Notebook and models
+pandas>=3.0
+numpy>=2.5
+# The saved models only load with the scikit-learn version that trained them
+scikit-learn==1.9.1
+joblib>=1.6
+matplotlib>=3.11
+seaborn>=0.13
+jupyterlab
+
+# API
+fastapi>=0.163
+uvicorn[standard]>=0.54
+python-multipart>=0.0.34
+
+# Dashboard
+streamlit>=1.67
+altair>=6.3
+requests>=2.34
