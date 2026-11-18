@@ -4,6 +4,8 @@ Detects attacks in network traffic, names the attack type, gives each connection
 a risk score and recommends what to do about it. Built on the **UNSW-NB15**
 dataset, served through a FastAPI service and a Streamlit dashboard.
 
+**Live demo:** https://threat-response-system.streamlit.app
+
 ## Problem
 
 A network sees thousands of connections every minute and a security team cannot
